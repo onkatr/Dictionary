@@ -14,7 +14,7 @@ namespace Dictionary
 
         foreach (KeyValuePair<int, string> item1 in My_dictionary)
         {
-            Console.WriteLine("{0} and {1}", item1.Key, item1.Value);
+            Console.WriteLine("{0} : {1}", item1.Key, item1.Value);
         }
     }
 }
