@@ -6,13 +6,13 @@ namespace Dictionary
 {
     static public void Main()
     {
-        Dictionary<int, string> My_dictionary1 = new Dictionary<int, string>();
+        Dictionary<int, string> My_dictionary = new Dictionary<int, string>();
 
-        My_dictionary1.Add(1, "Onur");
-        My_dictionary1.Add(2, "Merve");
-        My_dictionary1.Add(3, "Derin");
+        My_dictionary.Add(1, "Onur");
+        My_dictionary.Add(2, "Merve");
+        My_dictionary.Add(3, "Derin");
 
-        foreach (KeyValuePair<int, string> item1 in My_dictionary1)
+        foreach (KeyValuePair<int, string> item1 in My_dictionary)
         {
             Console.WriteLine("{0} and {1}", item1.Key, item1.Value);
         }
